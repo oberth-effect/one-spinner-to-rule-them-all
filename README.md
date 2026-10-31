@@ -36,3 +36,8 @@ One line is picked per turn and stays for the whole turn. On the desktop app the
 
 [docs/sources.md](docs/sources.md) lists every default line with its original wording, the speaker, the work and the chapter.
 Each was checked word for word against the books. None come from the films.
+
+## License
+
+The original code is by Emil J. Tywoniak, from [better-spinner-verbs](https://github.com/widlarizer/better-spinner-verbs). The [MIT License](LICENSE) covers only the changes made in this repository.
+The Tolkien quotations are short excerpts given for attribution. They remain under the Tolkien Estate's copyright and are not covered by this license.

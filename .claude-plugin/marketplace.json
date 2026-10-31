@@ -1,6 +1,6 @@
 {
-  "name": "better-spinner-verbs",
-  "owner": { "name": "Emil J. Tywoniak" },
-  "description": "Custom verbs for the Claude Code working spinner",
-  "plugins": [{ "name": "spinner-verbs", "source": "./" }]
+  "name": "one-spinner-to-rule-them-all",
+  "owner": { "name": "Štěpán Venclík" },
+  "description": "Ominous Tolkien lines for the Claude Code working spinner",
+  "plugins": [{ "name": "one-spinner-to-rule-them-all", "source": "./" }]
 }

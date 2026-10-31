@@ -1,0 +1,12 @@
+# Research material: kept locally, never committed
+ebooks/
+phrases.md
+ing-spinners.md
+picks.md
+
+# Written by Claude Code when it loads the plugin
+.claude-plugin/types/
+.mcpb-cache/
+
+*.log
+.DS_Store

@@ -1,21 +1,72 @@
 {
-  "name": "spinner-verbs",
+  "name": "one-spinner-to-rule-them-all",
   "version": "0.1.0",
-  "description": "Replaces the verbs in the working spinner with your own list",
-  "author": { "name": "Emil Tywoniak" },
+  "description": "Replaces the words in Claude Code's working spinner with ominous lines from Tolkien's legendarium",
+  "author": {
+    "name": "Štěpán Venclík"
+  },
   "userConfig": {
     "verbs": {
       "type": "string",
       "multiple": true,
       "title": "Spinner verbs",
-      "description": "Verbs to show while Claude works",
-      "default": ["Doing your mom...", "Committing tax fraud...", "Grooming minors...", "Leaking docs to warthunder forum...", "Immanentizing eschaton...", "Running IDF callbacks..."]
+      "description": "Lines to show while Claude works. Typed as one text, separate them with new lines or semicolons; commas stay inside a line.",
+      "default": [
+        "Spreading the discord of Melkor",
+        "Delving too greedily and too deep",
+        "Waking the nameless fear",
+        "Straying out of thought and time",
+        "Wandering far on roads that I will not tell",
+        "Gnawing the world",
+        "Twisting it to your own undoing",
+        "Gnawing bones in the dark",
+        "Waking Isildur's Bane",
+        "Drumming in the deep",
+        "Illuminating nothing",
+        "Weaving webs of shadow",
+        "Nursing malice and misery",
+        "Spinning dreadful snares",
+        "Bringing ruin, turning hope to despair",
+        "Sucking up all light",
+        "Vowing to pursue with vengeance and hatred to the ends of the World",
+        "Calling the Everlasting Dark",
+        "Sowing lies in the hearts of Elves and Men",
+        "Bringing ill counsel",
+        "Darkening Valinor",
+        "Ruining Doriath",
+        "Besieging Gondor",
+        "Interweaving matters of own imagining",
+        "Coiling around and above all obstacles",
+        "Bending all slowly and surely to my will",
+        "Weighing as a cloud of Doom",
+        "Mastering the fates of Arda",
+        "Kindling the wrath of Morgoth",
+        "Seeking to have own will by force",
+        "Hastening the Curse of Mandos",
+        "Watching with sleepless eyes of flame",
+        "Turning the Eye inward, pondering",
+        "Speaking the curse and prophecy",
+        "Foretelling much in dark words",
+        "Mastering shadows and phantoms",
+        "Weaving spells about them",
+        "Stirring the shadow of Sauron again",
+        "Casting down pillars and breaking lamps",
+        "Corrupting and enslaving by slow arts of cruelty",
+        "Breeding Orcs in envy and mockery of the Elves",
+        "Making vast smokes and vapours in the pits of Angband",
+        "Sending forth great rivers of flame",
+        "Gathering all the remaining Rings of Power",
+        "Conceiving evil in lies and creatures of wickedness"
+      ]
     },
     "mode": {
       "type": "string",
       "title": "Mode",
-      "description": "replace: only your verbs. mix: your verbs plus Claude Code's own",
-      "options": ["replace", "mix"],
+      "description": "replace: only these lines. mix: these lines plus Claude Code's own",
+      "options": [
+        "replace",
+        "mix"
+      ],
       "default": "replace"
     }
   }
